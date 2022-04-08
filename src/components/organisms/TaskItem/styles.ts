@@ -1,21 +1,6 @@
 import styled from "styled-components"
 
-export const Container = styled.main`
-  width: 100%;
-`
-
-export const Content = styled.ul`
-  background: var(--background-black);
-  max-width: 720px;
-  margin: 0 auto;
-
-  border-radius: 0.25rem;
-  padding: 1rem;
-
-  list-style: none;
-`
-
-export const TaskItem = styled.li`
+export const Container = styled.li`
   background: var(--surface);
   padding: 0.75rem 1rem;
   border-radius: 0.25rem;
@@ -23,7 +8,7 @@ export const TaskItem = styled.li`
   display: flex;
   justify-content: space-between;
 
-  button {
+  /* button {
     background: var(--text-body);
     border: 0;
     color: white;
@@ -38,7 +23,7 @@ export const TaskItem = styled.li`
     & + button {
       margin-left: 0.5rem;
     }
-  }
+  } */
 
   .task-info {
     display: flex;
